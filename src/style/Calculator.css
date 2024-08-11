@@ -4,9 +4,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-left: 40%;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
+    width: 220px;
   }
   
   .light {
@@ -25,7 +27,7 @@
     border: 1px solid #ccc;
   }
   
-  /* Dark Mode */
+
   .dark {
     background-color: #333333;
     color: #ffffff;
@@ -42,7 +44,7 @@
     border: 1px solid #777777;
   }
   
-  /* Display styles */
+
   .display {
     display: flex;
     flex-direction: column;
@@ -62,7 +64,7 @@
     border-radius: 5px;
   }
   
-  /* Buttons grid */
+
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 50px);
@@ -78,14 +80,13 @@
     outline: none;
   }
   
-  /* Theme toggle button styles */
   .theme-toggle {
     margin-bottom: 20px;
   }
   
   .theme-toggle button {
     padding: 10px;
-    font-size: 20px; /* Increased font size for icons */
+    font-size: 20px; 
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid #ccc;
